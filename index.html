@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loris Jukebox 🎶</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🎶 Loris Jukebox</h1>
+    <p class="subtitle">Appuie sur un bouton. Profite.</p>
+  </header>
+
+  <main class="grid">
+
+    <button class="sound-btn" data-sound="sounds/pauv_chatte.mp3" data-color="pink">
+      <span class="emoji">😿</span>
+      <span class="label">Ohh pauv' chatte</span>
+    </button>
+
+    <button class="sound-btn" data-sound="sounds/confortebule.mp3" data-color="purple">
+      <span class="emoji">😖</span>
+      <span class="label">Pas confortébeule</span>
+    </button>
+
+    <button class="sound-btn" data-sound="sounds/tant_mieux.mp3" data-color="green">
+      <span class="emoji">😏</span>
+      <span class="label">Tant mieux y'en aura plus pour moi</span>
+    </button>
+
+    <button class="sound-btn" data-sound="sounds/gueleton.mp3" data-color="orange">
+      <span class="emoji">🍖</span>
+      <span class="label">Gueuleton GUEULETON</span>
+    </button>
+
+    <button class="sound-btn" data-sound="sounds/fromageon.mp3" data-color="yellow">
+      <span class="emoji">🧀</span>
+      <span class="label">Fromageon FROMAGEON</span>
+    </button>
+
+    <button class="sound-btn" data-sound="sounds/breljack.mp3" data-color="brown">
+      <span class="emoji">☕</span>
+      <span class="label">Caferf on t'as dit Breljack</span>
+    </button>
+
+    <button class="sound-btn" data-sound="sounds/transpirerf.mp3" data-color="blue">
+      <span class="emoji">🥵</span>
+      <span class="label">Transpirerf</span>
+    </button>
+
+    <button class="sound-btn" data-sound="sounds/faut_que_jboive.mp3" data-color="cyan">
+      <span class="emoji">🥤</span>
+      <span class="label">Faut que j'boivé</span>
+    </button>
+
+    <button class="sound-btn" data-sound="sounds/mamat_cidibe.mp3" data-color="red">
+      <span class="emoji">🍔</span>
+      <span class="label">Un Mamat Cidibé</span>
+    </button>
+
+    <button class="sound-btn" data-sound="sounds/mamie.mp3" data-color="pink">
+      <span class="emoji">👵</span>
+      <span class="label">Ou t'es Mamie ou t'es Mamie</span>
+    </button>
+
+    <button class="sound-btn" data-sound="sounds/glace_graisse.mp3" data-color="teal">
+      <span class="emoji">🍦</span>
+      <span class="label">Une G.L.A.C.E pour ma G.R.A.I.S.S.E</span>
+    </button>
+
+    <button class="sound-btn" data-sound="sounds/oui.mp3" data-color="green">
+      <span class="emoji">✅</span>
+      <span class="label">Oui !</span>
+    </button>
+
+    <button class="sound-btn" data-sound="sounds/tain.mp3" data-color="red">
+      <span class="emoji">😤</span>
+      <span class="label">'Tain</span>
+    </button>
+
+    <button class="sound-btn" data-sound="sounds/ah_bon.mp3" data-color="purple">
+      <span class="emoji">🤨</span>
+      <span class="label">Ah bon !</span>
+    </button>
+
+  </main>
+
+  <div id="now-playing" class="now-playing hidden">
+    <span id="now-playing-text"></span>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
